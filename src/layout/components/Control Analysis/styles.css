@@ -1,0 +1,38 @@
+table.GeneratedTableDetail {
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #828385;
+  border-style: solid;
+  color: #000000;
+  text-align: center;
+}
+.bg {
+  background-color: #04365d;
+}
+.height {
+  height: 20px;
+}
+
+table.GeneratedTableDetail td,
+table.GeneratedTableDetail th {
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTableDetail thead {
+  background-color: #ffca00;
+}
+
+.custom-range::-webkit-slider-thumb {
+  background: gray;
+}
+
+.custom-range::-moz-range-thumb {
+  background: gray;
+}
+
+.custom-range::-ms-thumb {
+  background: gray;
+}

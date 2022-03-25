@@ -1,0 +1,35 @@
+table.Generated {
+  width: 450px;
+  height: 150px;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: whitesmoke;
+  color: #04365d;
+  text-align: left;
+  border-top: none !important;
+}
+.bg {
+  background-color: #04365d;
+}
+.height {
+  height: 20px;
+}
+
+table.Generated td,
+table.Generated th {
+  border-width: 2px;
+  border-color: rgb(218, 214, 214);
+  border-top: none !important;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  padding: 3px;
+  border-spacing: 100px !important;
+}
+
+table.Generated thead {
+  background-color: #ffca00;
+}
+
+table.Generated td:hover {
+  background-color: #04365d;
+}

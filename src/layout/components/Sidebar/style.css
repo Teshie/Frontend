@@ -1,0 +1,96 @@
+.banner {
+  width: 1450px;
+}
+.geo {
+  width: 700px;
+}
+.size_header {
+  font-size: 23px;
+}
+.size_body {
+  font-size: 40px;
+}
+.color {
+  color: #ce9f2c;
+}
+.second-color {
+  color: #04365d;
+}
+.third_color {
+  background-color: #00bfff;
+}
+.avatar_bg {
+  background-color: #ce9f2c;
+}
+.height_risk_card {
+  height: 450px;
+}
+.height_risk_card_operational {
+  height: 580px;
+}
+.total_loss_font {
+  font-size: 90px;
+}
+.middle_slider {
+  right: 800px;
+}
+.top_input {
+  top: 460px;
+}
+.table_width {
+  width: 700px;
+}
+.table_width_risk {
+  width: 450px;
+}
+.impact_card_height {
+  height: 330px;
+}
+.border_spacing {
+  border-spacing: 5em;
+}
+tr.spaceUnder > td {
+  padding-bottom: 100em;
+}
+.critical_color {
+  background-color: #7a1a1c;
+}
+.high_color {
+  background-color: #a72726;
+}
+.medium_color {
+  background-color: #ab5532;
+}
+.low_color {
+  background-color: #e3aa86;
+}
+.product_color {
+  background-color: #767678;
+}
+.radial_color {
+  background-color: #f7f7fc;
+}
+.vendor_list_font_size {
+  font-size: 20px;
+}
+.link_hover a:hover {
+  color: #ce9f2c;
+}
+.link_hover a {
+  margin-top: 30px;
+}
+.link_hover_critical a:hover {
+  color: #04365d;
+}
+.white_color {
+  color: white;
+}
+.border-top {
+  border-top: none !important;
+}
+.chart_text {
+  font-size: 70px;
+}
+.font_size_risk {
+  font-size: 30px;
+}

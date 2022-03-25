@@ -1,0 +1,50 @@
+.modalBackgroundVendors {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-left: 400px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  padding-bottom: 400px;
+}
+.modalContainerVendors {
+  z-index: 100;
+  width: 700px;
+
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainerVendors .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtnVendors {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtnVendors button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainerVendors .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}

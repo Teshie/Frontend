@@ -1,0 +1,48 @@
+table.GeneratedTableee {
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #86888a;
+  border-style: solid;
+  color: black;
+  text-align: center;
+}
+.bg {
+  background-color: #04365d;
+}
+
+table.GeneratedTableee td,
+table.GeneratedTableee th {
+  border-width: 2px;
+  border-color: rgb(224, 222, 222);
+  border-style: solid;
+  padding: 15px;
+}
+
+table.GeneratedTableee thead {
+  background-color: #ffca00;
+}
+
+table.GeneratedTables {
+  margin-top: 50px;
+  width: 90%;
+  color: black;
+  padding-bottom: 10px;
+}
+.bg {
+  background-color: #04365d;
+}
+
+table.GeneratedTables td,
+table.GeneratedTables th {
+  border-width: 1px;
+  font-size: 15px;
+  border-style: solid;
+  padding: 15px;
+}
+
+table.GeneratedTables thead {
+  background-color: #04365d;
+  color: #ce9f2c;
+  text-align: center;
+  font-size: 40px !important;
+}

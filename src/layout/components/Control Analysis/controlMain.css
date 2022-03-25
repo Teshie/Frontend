@@ -1,0 +1,36 @@
+table.GeneratedTablee {
+  border-collapse: collapse;
+  border-color: #86888a;
+  border-style: solid;
+  color: black;
+  text-align: center;
+}
+table.GeneratedTableeee {
+  border-collapse: collapse;
+  border-color: #86888a;
+  border-style: solid;
+  color: black;
+  text-align: center;
+}
+.bg {
+  background-color: #04365d;
+}
+
+table.GeneratedTablee td,
+table.GeneratedTablee th {
+  border-width: 2px;
+  border-color: rgb(224, 222, 222);
+  border-style: solid;
+  padding: 20px;
+}
+table.GeneratedTableeee td,
+table.GeneratedTableeee th {
+  border-width: 2px;
+  border-color: rgb(224, 222, 222);
+  border-style: solid;
+  padding: 20px;
+}
+
+table.GeneratedTablee thead {
+  background-color: #ffca00;
+}

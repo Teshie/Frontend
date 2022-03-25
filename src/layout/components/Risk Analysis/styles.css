@@ -1,0 +1,111 @@
+table.GeneratedTable {
+  width: 100%;
+  height: 120px;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  color: black;
+  font-size: medium;
+}
+.bg {
+  background-color: #04365d;
+}
+.card_width {
+  width: 690px;
+}
+.card_one {
+  width: 420px;
+}
+.card_exploitable {
+  width: 530px;
+}
+.card_two {
+  width: 490px;
+}
+.card_three {
+  width: 490px;
+}
+
+.card_widthh {
+  width: 690px;
+}
+table.GeneratedTable td,
+table.GeneratedTable th {
+  border-width: 2px;
+  border-color: whitesmoke;
+  border-style: solid;
+  font-size: medium;
+}
+
+table.GeneratedTable thead {
+  margin-bottom: 50px;
+}
+.custom-range::-webkit-slider-thumb {
+  background: rgb(214, 5, 5);
+}
+
+.custom-range::-moz-range-thumb {
+  background: gray;
+}
+
+.custom-range::-ms-thumb {
+  background: gray;
+}
+
+.risk_container {
+  width: 804px;
+  height: 387px;
+  display: flex;
+  background: whitesmoke;
+  border-radius: 12px;
+  color: white;
+}
+.risk_container_three {
+  width: 1604px;
+  height: 487px;
+  display: flex;
+  background: whitesmoke;
+  border-radius: 12px;
+  color: white;
+}
+.risk_container-financial {
+  width: 804px;
+  height: 700px;
+  display: flex;
+  background: whitesmoke;
+  border-radius: 12px;
+  color: white;
+}
+.risk_three {
+  width: 336px;
+  height: 80px;
+  background: #000000;
+
+  border-radius: 12px;
+}
+.risk_two {
+  margin-right: 10px;
+  width: 336px;
+  height: 80px;
+  background: #000000;
+  border-radius: 12px;
+}
+.risk_one {
+  margin-left: 10px;
+  width: 156px;
+  height: 80px;
+  border-radius: 12px;
+  color: black;
+  font-weight: bolder;
+}
+.button_alter {
+  height: 35px;
+  width: 80px;
+  background: #0a66c3;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bolder;
+}

@@ -1,0 +1,34 @@
+table.GeneratedTableNone {
+  width: 100%;
+  height: 150px;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #828385;
+  border-style: solid;
+  color: #04365d;
+  text-align: center;
+}
+.bg {
+  background-color: #04365d;
+}
+.height {
+  height: 20px;
+}
+.card-height {
+  height: 500px;
+}
+
+/* table.GeneratedTable td,
+table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #813232;
+  border-style: solid;
+  padding: 3px;
+} */
+
+table.GeneratedTable thead {
+  background-color: #ffca00;
+}
+.hh {
+  width: 600px;
+}

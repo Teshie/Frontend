@@ -1,0 +1,84 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-left: 1000px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  padding-bottom: 400px;
+}
+.modalContainer {
+  z-index: 100;
+  width: 900px;
+  /* height: 600px; */
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.color_id {
+  color: #286091;
+}
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ce9f2c;
+  color: #ce9f2c;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #ce9f2c;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #ce9f2c;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
