@@ -22,7 +22,7 @@ const ViewTcMapping = () => {
         return false;
       });
   }, []);
-  console.log(data, "atc mapping");
+  console.log(data, "ATC mapping");
   const deleteBusinessImpact = (e) => {
     http({
       url: "https://cyberminds-backend.herokuapp.com/api/business_process/delete_tc_mapping",
